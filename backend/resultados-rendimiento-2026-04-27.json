@@ -1,0 +1,92 @@
+[
+  {
+    "nombre": "Login con credenciales válidas",
+    "repeticiones": 20,
+    "exitosas": 20,
+    "errores": 0,
+    "min": 54.75,
+    "max": 57.42,
+    "promedio": 55.55,
+    "mediana": 55.34
+  },
+  {
+    "nombre": "GET /api/solicitudes",
+    "repeticiones": 20,
+    "exitosas": 20,
+    "errores": 0,
+    "min": 1.53,
+    "max": 2.67,
+    "promedio": 1.96,
+    "mediana": 1.99
+  },
+  {
+    "nombre": "GET /api/usuarios",
+    "repeticiones": 20,
+    "exitosas": 20,
+    "errores": 0,
+    "min": 1.33,
+    "max": 2.11,
+    "promedio": 1.63,
+    "mediana": 1.59
+  },
+  {
+    "nombre": "GET /api/cotizaciones",
+    "repeticiones": 20,
+    "exitosas": 20,
+    "errores": 0,
+    "min": 1.51,
+    "max": 2.29,
+    "promedio": 1.77,
+    "mediana": 1.69
+  },
+  {
+    "nombre": "GET /api/proveedores",
+    "repeticiones": 20,
+    "exitosas": 20,
+    "errores": 0,
+    "min": 1.21,
+    "max": 2.9,
+    "promedio": 1.6,
+    "mediana": 1.49
+  },
+  {
+    "nombre": "GET /api/solicitudes/stats",
+    "repeticiones": 15,
+    "exitosas": 15,
+    "errores": 0,
+    "min": 1.19,
+    "max": 2.2,
+    "promedio": 1.47,
+    "mediana": 1.43
+  },
+  {
+    "nombre": "GET /api/cotizaciones/stats",
+    "repeticiones": 15,
+    "exitosas": 15,
+    "errores": 0,
+    "min": 1.18,
+    "max": 2.38,
+    "promedio": 1.54,
+    "mediana": 1.45
+  },
+  {
+    "nombre": "GET /api/auth/me",
+    "repeticiones": 30,
+    "exitosas": 30,
+    "errores": 0,
+    "min": 1.2,
+    "max": 3.23,
+    "promedio": 1.65,
+    "mediana": 1.47
+  },
+  {
+    "nombre": "10 peticiones concurrentes (GET /api/solicitudes)",
+    "repeticiones": 10,
+    "exitosas": 10,
+    "errores": 0,
+    "min": 0,
+    "max": 26,
+    "promedio": 20.31,
+    "mediana": 0
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "fecha": "2026-04-27T04:05:30.812Z",
+  "totalOperaciones": 406,
+  "operacionesExitosas": 396,
+  "estabilidadGlobal": 97.54,
+  "resultados": [
+    {
+      "prueba": "PE-001",
+      "descripcion": "100 peticiones consecutivas a /api/solicitudes",
+      "operaciones": 100,
+      "exitosas": 100,
+      "errores": 0,
+      "duracionSegundos": 0.19,
+      "tiempoPromedioMs": 1.77,
+      "estabilidad": 100
+    },
+    {
+      "prueba": "PE-002",
+      "descripcion": "5 logins concurrentes con usuarios diferentes",
+      "operaciones": 5,
+      "exitosas": 5,
+      "errores": 0,
+      "duracionSegundos": 0.11,
+      "tiempoPromedioMs": 0,
+      "estabilidad": 100
+    },
+    {
+      "prueba": "PE-003",
+      "descripcion": "200 validaciones consecutivas de token JWT",
+      "operaciones": 200,
+      "exitosas": 200,
+      "errores": 0,
+      "duracionSegundos": 0.32,
+      "tiempoPromedioMs": 1.59,
+      "estabilidad": 100
+    },
+    {
+      "prueba": "PE-004",
+      "descripcion": "50 operaciones mixtas combinadas",
+      "operaciones": 50,
+      "exitosas": 50,
+      "errores": 0,
+      "duracionSegundos": 0.08,
+      "tiempoPromedioMs": 1.6,
+      "estabilidad": 100
+    },
+    {
+      "prueba": "PE-005",
+      "descripcion": "50 peticiones inválidas para verificar manejo de errores",
+      "operaciones": 50,
+      "exitosas": 40,
+      "errores": 10,
+      "duracionSegundos": 0.08,
+      "tiempoPromedioMs": 1.56,
+      "estabilidad": 80
+    },
+    {
+      "prueba": "PE-006",
+      "descripcion": "Verificación final tras todas las pruebas",
+      "operaciones": 1,
+      "exitosas": 1,
+      "errores": 0,
+      "duracionSegundos": 0,
+      "tiempoPromedioMs": 2,
+      "estabilidad": 100
+    }
+  ]
+}
